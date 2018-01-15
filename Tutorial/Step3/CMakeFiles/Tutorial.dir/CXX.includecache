@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lkit/Programming/C++/Tutorial/Step3/TutorialConfig.h
+
+/home/lkit/Programming/C++/Tutorial/Step3/tutorial.cxx
+TutorialConfig.h
+/home/lkit/Programming/C++/Tutorial/Step3/TutorialConfig.h
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+MathFunctions.h
+/home/lkit/Programming/C++/Tutorial/Step3/MathFunctions.h
+
+MathFunctions/MathFunctions.h
+

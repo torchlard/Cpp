@@ -1,0 +1,14 @@
+/home/lkit/Programming/C++/Demo/CMakeFiles/install.dir
+/home/lkit/Programming/C++/Demo/CMakeFiles/list_install_components.dir
+/home/lkit/Programming/C++/Demo/CMakeFiles/rebuild_cache.dir
+/home/lkit/Programming/C++/Demo/CMakeFiles/Tutorial.dir
+/home/lkit/Programming/C++/Demo/CMakeFiles/install/local.dir
+/home/lkit/Programming/C++/Demo/CMakeFiles/install/strip.dir
+/home/lkit/Programming/C++/Demo/CMakeFiles/edit_cache.dir
+/home/lkit/Programming/C++/Demo/MathFunctions/CMakeFiles/install.dir
+/home/lkit/Programming/C++/Demo/MathFunctions/CMakeFiles/list_install_components.dir
+/home/lkit/Programming/C++/Demo/MathFunctions/CMakeFiles/rebuild_cache.dir
+/home/lkit/Programming/C++/Demo/MathFunctions/CMakeFiles/MathFunctions.dir
+/home/lkit/Programming/C++/Demo/MathFunctions/CMakeFiles/install/strip.dir
+/home/lkit/Programming/C++/Demo/MathFunctions/CMakeFiles/install/local.dir
+/home/lkit/Programming/C++/Demo/MathFunctions/CMakeFiles/edit_cache.dir

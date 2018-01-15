@@ -1,0 +1,8 @@
+/home/lkit/Programming/C++/source/build/CMakeFiles/edit_cache.dir
+/home/lkit/Programming/C++/source/build/CMakeFiles/rebuild_cache.dir
+/home/lkit/Programming/C++/source/build/calc/CMakeFiles/rebuild_cache.dir
+/home/lkit/Programming/C++/source/build/calc/CMakeFiles/edit_cache.dir
+/home/lkit/Programming/C++/source/build/calc/CMakeFiles/calc.dir
+/home/lkit/Programming/C++/source/build/app/CMakeFiles/rebuild_cache.dir
+/home/lkit/Programming/C++/source/build/app/CMakeFiles/edit_cache.dir
+/home/lkit/Programming/C++/source/build/app/CMakeFiles/app.dir

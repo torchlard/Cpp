@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lkit/Programming/C++/Demo/MathFunctions/MathFunctions.h
+
+/home/lkit/Programming/C++/Demo/MathFunctions/mysqrt.cxx
+MathFunctions.h
+/home/lkit/Programming/C++/Demo/MathFunctions/MathFunctions.h
+stdio.h
+-
+

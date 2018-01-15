@@ -1,0 +1,3 @@
+/home/lkit/Programming/C++/train/build/CMakeFiles/rebuild_cache.dir
+/home/lkit/Programming/C++/train/build/CMakeFiles/main01.dir
+/home/lkit/Programming/C++/train/build/CMakeFiles/edit_cache.dir
