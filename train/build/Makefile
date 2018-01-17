@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/lkit/Programming/Cpp/train/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main01
+# Target rules for targets named main08
 
 # Build rule for target.
-main01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main01
-.PHONY : main01
+main08: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main08
+.PHONY : main08
 
 # fast build rule for target.
-main01/fast:
-	$(MAKE) -f CMakeFiles/main01.dir/build.make CMakeFiles/main01.dir/build
-.PHONY : main01/fast
+main08/fast:
+	$(MAKE) -f CMakeFiles/main08.dir/build.make CMakeFiles/main08.dir/build
+.PHONY : main08/fast
 
-main01.o: main01.cpp.o
+main08.o: main08.cpp.o
 
-.PHONY : main01.o
+.PHONY : main08.o
 
 # target to build an object file
-main01.cpp.o:
-	$(MAKE) -f CMakeFiles/main01.dir/build.make CMakeFiles/main01.dir/main01.cpp.o
-.PHONY : main01.cpp.o
+main08.cpp.o:
+	$(MAKE) -f CMakeFiles/main08.dir/build.make CMakeFiles/main08.dir/main08.cpp.o
+.PHONY : main08.cpp.o
 
-main01.i: main01.cpp.i
+main08.i: main08.cpp.i
 
-.PHONY : main01.i
+.PHONY : main08.i
 
 # target to preprocess a source file
-main01.cpp.i:
-	$(MAKE) -f CMakeFiles/main01.dir/build.make CMakeFiles/main01.dir/main01.cpp.i
-.PHONY : main01.cpp.i
+main08.cpp.i:
+	$(MAKE) -f CMakeFiles/main08.dir/build.make CMakeFiles/main08.dir/main08.cpp.i
+.PHONY : main08.cpp.i
 
-main01.s: main01.cpp.s
+main08.s: main08.cpp.s
 
-.PHONY : main01.s
+.PHONY : main08.s
 
 # target to generate assembly for a file
-main01.cpp.s:
-	$(MAKE) -f CMakeFiles/main01.dir/build.make CMakeFiles/main01.dir/main01.cpp.s
-.PHONY : main01.cpp.s
+main08.cpp.s:
+	$(MAKE) -f CMakeFiles/main08.dir/build.make CMakeFiles/main08.dir/main08.cpp.s
+.PHONY : main08.cpp.s
 
 # Help Target
 help:
@@ -156,12 +156,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... main01"
-	@echo "... main01.o"
-	@echo "... main01.i"
-	@echo "... main01.s"
+	@echo "... rebuild_cache"
+	@echo "... main08"
+	@echo "... main08.o"
+	@echo "... main08.i"
+	@echo "... main08.s"
 .PHONY : help
 
 
