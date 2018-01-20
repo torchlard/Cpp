@@ -29,15 +29,18 @@ public:
 };
 
 Float operator ! (const Float& F1){
-  return Float(F1.F * F1.F);
+  // will not change F1
+  return Float(F1.F * F1.F*100000);
 }
+// --F1
 Float& operator -- (Float& F1){
   F1.F--; return F1;
 }
+// F1--
 Float operator -- (Float& F1, int){
-  Float Before(F1.F);
+  Float before(F1.F);
   F1.F--;
-  return Before;
+  return before; // later response because return previoius value
 }
 
 
