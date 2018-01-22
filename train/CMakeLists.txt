@@ -5,4 +5,4 @@ include_directories(
   .
 )
 
-add_executable(main11 main11.cpp)
+add_executable(template04 template04.cpp)
